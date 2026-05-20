@@ -1,0 +1,20 @@
+{
+  "name": "fox-sdk-decoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "decode": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/fox-sdk": "file:../fox-sdk",
+    "dotenv": "^17.4.2",
+    "openai": "^6.38.0",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "viem": "^2.50.4"
+  }
+}
